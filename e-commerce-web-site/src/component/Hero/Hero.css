@@ -1,0 +1,140 @@
+.hero {
+    padding: 40px 0 0;
+  }
+  
+  .hero-content {
+    display: grid;
+    grid-template-columns: 217px 1fr;
+    gap: 45px;
+  }
+  
+  .sidebar {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding-right: 16px;
+  }
+  
+  .category-list {
+    list-style: none;
+  }
+  
+  .category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .category-item:hover {
+    color: #db4444;
+  }
+  
+  .hero-banner {
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px 64px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: 320px;
+  }
+  
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .banner-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+  
+  .shop-link {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .banner-image {
+    width: 470px;
+  }
+  
+  .banner-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #db4444;
+    border: 2px solid white;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .sidebar {
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      padding-right: 0;
+      padding-bottom: 16px;
+    }
+  
+    .category-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 8px;
+    }
+  
+    .category-item {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .hero-banner {
+      padding: 32px 24px;
+    }
+  
+    .banner-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 24px;
+    }
+  
+    .banner-text h1 {
+      font-size: 32px;
+    }
+  }
+  

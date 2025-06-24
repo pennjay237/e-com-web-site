@@ -1,0 +1,121 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+  }
+  
+  .login-image {
+    background: linear-gradient(135deg, #cbe4e8 0%, #cbe4e8 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .login-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: white;
+  }
+  
+  .login-form-content {
+    width: 100%;
+    max-width: 370px;
+  }
+  
+  .login-form-content h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 24px;
+  }
+  
+  .login-form-content p {
+    color: #000;
+    margin-bottom: 48px;
+    font-size: 16px;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 40px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0 0 8px 0;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    background: transparent;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .form-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-bottom-color: #db4444;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .login-btn {
+    padding: 16px 48px;
+    font-size: 16px;
+  }
+  
+  .forgot-link {
+    color: #db4444;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .login-image {
+      display: none;
+    }
+  
+    .form-actions {
+      flex-direction: column;
+      gap: 24px;
+      align-items: stretch;
+    }
+  
+    .login-btn {
+      width: 100%;
+    }
+  }
+  

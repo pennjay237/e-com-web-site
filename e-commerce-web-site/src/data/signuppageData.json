@@ -1,0 +1,29 @@
+{
+  "title": "Create an account",
+  "subtitle": "Enter your details below",
+  "fields": {
+    "name": {
+      "placeholder": "Name"
+    },
+    "email": {
+      "placeholder": "Email or Phone Number"
+    },
+    "password": {
+      "placeholder": "Password"
+    }
+  },
+  "buttons": {
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating Account...",
+    "googleSignUp": "Sign up with Google"
+  },
+  "images": {
+    "main": "https://bstntljwbchhsaxmprem.supabase.co/storage/v1/object/sign/side/dl.beatsnoop%201.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wOWU0N2JjOC1kOTg2LTRkOTMtOGJkYi02YzliNWVkYTM5MzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRlL2RsLmJlYXRzbm9vcCAxLnBuZyIsImlhdCI6MTc1MDYxMjMyMSwiZXhwIjoxNzgyMTQ4MzIxfQ.Pk-ryIKQWMqWckmzbqHiVWy57Pe4XX4hnYlfNB7nme0",
+    "googleIcon": "https://bstntljwbchhsaxmprem.supabase.co/storage/v1/object/sign/side/Icon-Google.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wOWU0N2JjOC1kOTg2LTRkOTMtOGJkYi02YzliNWVkYTM5MzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRlL0ljb24tR29vZ2xlLnBuZyIsImlhdCI6MTc1MDYxMjYwMSwiZXhwIjoxNzgyMTQ4NjAxfQ.mT3Aul9mFMfprIw_w4auLal2U0DMBHYXY9yUZUYn_pc"
+  },
+  "loginLink": {
+    "text": "Already have account? ",
+    "linkText": "Log in",
+    "to": "/login"
+  }
+}

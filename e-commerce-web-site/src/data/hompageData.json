@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Welcome",
+    "subtitle": "Your one-stop shop for amazing deals",
+    "image": "/images/hero-banner.jpg",
+    "ctaText": "Shop Now",
+    "ctaLink": "/products"
+  },
+  "flashSales": [
+    {
+      "id": 1,
+      "name": "Wireless Earbuds",
+      "price": 29.99,
+      "discount": 25,
+      "image": "/images/products/earbuds.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 99.99,
+      "discount": 40,
+      "image": "/images/products/watch.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "image": "/images/categories/electronics.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "image": "/images/categories/fashion.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "image": "/images/categories/books.jpg"
+    }
+  ],
+  "bestSelling": [
+    {
+      "id": 101,
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "image": "/images/products/speaker.jpg"
+    }
+  ],
+  "banner": {
+    "image": "/images/banner-sale.jpg",
+    "text": "Big Summer Sale – Up to 70% Off!",
+    "link": "/sale"
+  },
+  "products": [
+    {
+      "id": 201,
+      "name": "Laptop Backpack",
+      "price": 39.99,
+      "image": "/images/products/backpack.jpg"
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 301,
+      "name": "Noise Cancelling Headphones",
+      "price": 89.99,
+      "image": "/images/products/noise-cancelling.jpg"
+    }
+  ],
+  "services": [
+    {
+      "icon": "local_shipping",
+      "title": "Free Shipping",
+      "description": "Free shipping on orders over $50"
+    },
+    {
+      "icon": "verified_user",
+      "title": "Secure Payment",
+      "description": "100% secure payment processing"
+    },
+    {
+      "icon": "support_agent",
+      "title": "24/7 Support",
+      "description": "Customer support around the clock"
+    }
+  ]
+}

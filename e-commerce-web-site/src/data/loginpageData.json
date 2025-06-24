@@ -1,0 +1,25 @@
+{
+  "title": "Log in to Exclusive",
+  "subtitle": "Enter your details below",
+  "fields": {
+    "email": {
+      "placeholder": "Email or Phone Number"
+    },
+    "password": {
+      "placeholder": "Password"
+    }
+  },
+  "buttons": {
+    "login": "Log In",
+    "loggingIn": "Logging in..."
+  },
+  "images": {
+    "main": "https://bstntljwbchhsaxmprem.supabase.co/storage/v1/object/sign/side/dl.beatsnoop%201.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wOWU0N2JjOC1kOTg2LTRkOTMtOGJkYi02YzliNWVkYTM5MzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRlL2RsLmJlYXRzbm9vcCAxLnBuZyIsImlhdCI6MTc1MDYxMjMyMSwiZXhwIjoxNzgyMTQ4MzIxfQ.Pk-ryIKQWMqWckmzbqHiVWy57Pe4XX4hnYlfNB7nme0"
+  },
+  "links": {
+    "forgotPassword": {
+      "text": "Forget Password?",
+      "to": "/forgot-password"
+    }
+  }
+}

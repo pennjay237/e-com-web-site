@@ -1,0 +1,27 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 80px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+  }
+  
+  .breadcrumb-item a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #000;
+  }
+  
+  .breadcrumb-item span:not(.separator) {
+    color: #000;
+  }
+  
+  .separator {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  

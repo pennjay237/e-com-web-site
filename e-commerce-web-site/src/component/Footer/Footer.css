@@ -1,0 +1,154 @@
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 80px 0 24px;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .footer-section h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  
+  .footer-section p {
+    margin-bottom: 16px;
+    color: #fafafa;
+  }
+  
+  .footer-section address {
+    font-style: normal;
+    color: #fafafa;
+    margin-bottom: 16px;
+  }
+  
+  .subscribe-form {
+    position: relative;
+    display: flex;
+    margin-top: 16px;
+  }
+  
+  .subscribe-form input {
+    flex: 1;
+    padding: 12px 5px;
+    background-color: transparent;
+    border: 1.5px solid #fafafa;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .subscribe-form input::placeholder {
+    color: #fafafa;
+    opacity: 0.4;
+  }
+  
+  .subscribe-form input:focus {
+    outline: none;
+    border-color: #db4444;
+  }
+  
+  .subscribe-form button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 16px;
+  }
+  
+  .footer-section ul li a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #db4444;
+  }
+  
+  .app-downloads {
+    display: flex;
+    gap: 8px;
+    margin: 24px 0;
+  }
+  
+  .qr-code img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .app-buttons img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .social-links a {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #db4444;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 16px;
+    text-align: center;
+    color: #808080;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 40px 0 24px;
+    }
+  
+    .footer-content {
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+  
+    .app-downloads {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  }
+  
