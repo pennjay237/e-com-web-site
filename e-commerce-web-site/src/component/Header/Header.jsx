@@ -13,13 +13,12 @@ function Header() {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    // Handle search functionality
     console.log("Searching for:", searchQuery)
   }
 
   return (
     <>
-      {/* Top Banner */}
+      {}
       <div className="top-banner">
         <div className="container">
           <p>

@@ -7,14 +7,12 @@ import Banner from "../../component/Banner/Banner";
 import Products from "../../component/Products/Products";
 import NewArrivals from "../../component/NewArrivals/NewArrivals";
 import Services from "../../Services/Services";
-import "./Home.css";
+import styles from "./Home.module.css";
 import homepageData from "../../data/hompageData.json";
-
-
 
 function Home() {
   return (
-    <div className="home">
+    <div className={styles.home}>
       <Hero data={homepageData.hero} />
       <FlashSales data={homepageData.flashSales} />
       <Categories data={homepageData.categories} />
@@ -28,3 +26,8 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+

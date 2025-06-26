@@ -1,0 +1,32 @@
+{
+  "Wishlist": [
+    {
+      "id": 10,
+      "name": "Gaming Mouse",
+      "price": 49.99,
+      "discount": 15,
+      "image": "/images/products/gaming-mouse.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "discount": 20,
+      "image": "/images/products/keyboard.jpg"
+    }
+  ],
+  "Just For You": [
+    {
+      "id": 110,
+      "name": "4K Monitor",
+      "price": 299.99,
+      "image": "/images/products/4k-monitor.jpg"
+    },
+    {
+      "id": 111,
+      "name": "Wireless Charger",
+      "price": 19.99,
+      "image": "/images/products/wireless-charger.jpg"
+    }
+  ]
+}
